@@ -1,0 +1,253 @@
+  body {
+            color: white;
+            background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0px;
+            margin-bottom: 10px;
+            z-index: 99;
+        }
+        
+        p {
+            margin: 0px;
+            padding: 0px;
+            font-size: 12px;
+        }
+        
+        h2 {
+            font-size: 16px;
+            font-weight: 500;
+            background-color: blueviolet;
+            border-radius: 10px;
+            padding: 2px;
+            margin: 0px auto;
+            margin-bottom: 15px;
+            width: 80%;
+            z-index: 99;
+            color: white;
+        }
+        
+        h3 {
+            background-color: blueviolet;
+            border-radius: 10px;
+            padding: 2px;
+            margin: 10px auto;
+            width: 60%;
+        }
+        
+        section {
+            max-width: 1000px;
+            margin: 0px auto;
+            border: 1px solid black;
+            padding: 10px;
+            z-index: 9;
+        }
+        
+        .search {
+            padding: 10px 20px;
+            border-bottom: 1px solid rgb(61, 61, 61);
+            text-align: center;
+        }
+        
+        .wraper {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #city {
+            width: 50%;
+            padding: 18px;
+            border: none;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            font-size: 15px;
+            position: relative;
+            border-radius: 30px;
+            background-color: white;
+            z-index: 9;
+        }
+        
+        input:focus {
+            border: 2px solid blueviolet !important;
+        }
+        
+        button {
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            position: absolute;
+            margin-left: -100px;
+            margin-top: 7px;
+            cursor: pointer;
+            font-weight: 600;
+            border: 2px solid blueviolet;
+            outline-color: blueviolet;
+            z-index: 9;
+        }
+        
+        button:hover {
+            color: blueviolet;
+            background-color: white;
+            border: 2px solid blueviolet;
+        }
+        
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            /* Black see-through */
+            color: #f1f1f1;
+            width: 100%;
+            transition: .5s ease;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            opacity: 0.8;
+        }
+        
+        iframe {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+        }
+        
+        aside {
+            background-color: rgba(27, 27, 27, 0.884);
+            position: absolute;
+            right: 0;
+            margin-top: 50px;
+            margin-right: 20px;
+            z-index: 99;
+            width: 220px;
+            height: 200px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            animation: fadeInRight 1s ease-in-out;
+            border: 2px solid white;
+        }
+        
+        .sidebar {
+            background-color: rgba(27, 27, 27, 0.884);
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: 10px;
+            margin-right: 20px;
+            z-index: 99;
+            height: 140px;
+            width: 220px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            animation: fadeInRight 1s ease-in-out;
+            border: 2px solid white;
+        }
+        
+        .footer {
+            background-color: rgba(27, 27, 27, 0.891);
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: 99;
+            height: 170px;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        table img {
+            width: 35%;
+        }
+        
+        table {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        table td {
+            margin: 20px 0px;
+            width: auto;
+            font-size: 13px;
+        }
+        
+        .logo {
+            width: 90%;
+        }
+        
+        aside tr {
+            border-bottom: 1px solid white !important;
+        }
+        
+        .wrap {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+        }
+        
+        .card {
+            width: 10%;
+            box-shadow: rgba(133, 138, 142, 0.3) 0px 1px 2px 0px, rgba(157, 166, 174, 0.15) 0px 2px 6px 2px;
+            border-radius: 10px;
+            padding-bottom: 10px;
+            border: 1px solid white;
+            background-color: rgba(27, 27, 27, 0.884);
+        }
+        
+        .card img {
+            width: 50%;
+        }
+        
+        .first {
+            display: flex;
+            width: 20%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .first div {
+            width: 50%;
+        }
+        
+        #imgS img {
+            width: 100%;
+        }
+        
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(300px);
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        #sitetitle {
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+            background-color: blueviolet;
+            color: white;
+            padding: 8px;
+            width: 25%;
+            margin: auto;
+            border: 1px solid white;
+        }
